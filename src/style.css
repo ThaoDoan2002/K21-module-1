@@ -1,16 +1,29 @@
-@import "tailwindcss";
 @import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
 
 @theme {
     --font-sans: "Urbanist", sans-serif;
     --text-base: 18px;
-    --color-default: #1A3129;
+    --color-default: #262626;
+    --color-main: #1A3129;
     --color-primary: #CBEA7B;
-    --color-base: #262626;
+    --color-full: #FAFDF2;
+    --color-item: #F6FBE9;
+    --breakpoint-3xl: 1920px;
 }
 
-@layer base {
-    body {
-        @apply text-base text-base font-sans;
-    }
+body {
+    @apply 3xl:text-base text-default;
+}
+
+.container {
+    @apply 3xl:max-w-[1596px] max-w-7xl mx-auto;
+}
+
+.transform-health {
+    @apply relative pb-2 inline-block after:content-[''] after:bg-primary after:absolute after:bottom-0 after:left-0 after:w-full after:h-1
+}
+
+.blog-icon {
+    @apply 3xl:p-4.5 p-3.5 bg-item 3xl:rounded-lg rounded-md border border-[#EEF8D3];
 }
