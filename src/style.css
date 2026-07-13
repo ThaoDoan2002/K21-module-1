@@ -27,3 +27,22 @@ body {
 .blog-icon {
     @apply 3xl:p-4.5 p-3.5 bg-item 3xl:rounded-lg rounded-md border border-[#EEF8D3];
 }
+
+.steps ol {
+    counter-reset: item-counter;
+}
+
+.steps li {
+    counter-increment: item-counter;
+}
+
+.number-item::before {
+    content: counter(item-counter, decimal-leading-zero);
+    font-size: 150px;
+    font-weight: bold;
+    color: #468671;
+}
+
+.number-item {
+    margin-bottom: -90px;
+}
