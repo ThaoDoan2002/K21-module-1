@@ -9,20 +9,21 @@
     --color-primary: #CBEA7B;
     --color-full: #FAFDF2;
     --color-item: #F6FBE9;
-    --breakpoint-3xl: 1920px;
+    --breakpoint-xl: 90rem;
+    --breakpoint-2xl: 120rem;
 }
 
 body {
-    @apply 3xl:text-base text-default;
+    @apply 2xl:text-base text-default;
 }
 
 .container {
-    @apply 3xl:max-w-[1596px] max-w-7xl mx-auto;
+    @apply 2xl:max-w-[1596px] xl:max-w-7xl max-w-89.5 mx-auto;
 }
 
 
 .blog-icon {
-    @apply 3xl:p-4.5 p-3.5 bg-item 3xl:rounded-lg rounded-md border border-[#EEF8D3];
+    @apply 2xl:p-4.5 p-3.5 bg-item 2xl:rounded-lg rounded-md border border-[#EEF8D3];
 }
 
 .steps ol {
