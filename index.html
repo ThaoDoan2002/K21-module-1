@@ -9,53 +9,85 @@
   <body class="bg-full">
     <!-- START HEADER -->
     <header>
-      <div class="bg-main header-top 3xl:px-40.5 px-20 py-3.5">
+      <div
+        class="bg-main relative header-top 2xl:px-40.5 xl:px-20 xl:py-3.5 pt-10 px-4 pb-3.5"
+      >
+        <img
+          class="2xl:hidden xl:hidden block absolute bottom-0 left-0 translate-y-[calc(50%-10px)]"
+          src="./images/home/path-2.svg"
+          alt=""
+        />
+
+        <img
+          class="2xl:hidden xl:hidden block absolute right-0 bottom-0 translate-y-[calc(50%+5px)]"
+          src="./images/home/path-1.svg"
+          alt=""
+        />
         <div
-          class="bg-[#234338] flex justify-between rounded-t-md 3xl:px-10 px-8.5 border border-[#2C5446]"
+          class="bg-[#234338] relative flex justify-between 2xl:rounded-t-md xl:rounded-t-md rounded-md 2xl:px-10 xl:px-8.5 2xl:py-0 xl:py-0 py-2.5 px-2 border border-[#2C5446]"
         >
-          <img class="3xl:w-48.5 w-35.75" src="./images/home/path.svg" alt="" />
+          <img class="2xl:block hidden" src="./images/home/path.svg" alt="" />
+          <img
+            class="2xl:hidden xl:block hidden"
+            src="./images/home/path-xl-1.svg"
+            alt=""
+          />
+
           <div class="flex items-center">
-            <img class="3xl:w-6 w-5" src="./images/home/Icon.svg" alt="" />
-            <p class="text-[#FFFFFF] font-medium ml-1.5">
+            <img class="2xl:w-6 w-5" src="./images/home/Icon.svg" alt="" />
+            <p
+              class="text-[#FFFFFF] font-medium ml-1.5 xl:text-[16px] text-[14px]"
+            >
               Join Our Personalized Nutrition Demo For Free
             </p>
-            <div class="3xl:ml-5 ml-3.5">
+            <div class="2xl:ml-5 ml-3.5">
               <img
-                class="3xl:w-6 w-5"
+                class="2xl:w-6 w-5"
                 src="./images/home/right-arrow.svg"
                 alt=""
               />
             </div>
           </div>
           <img
-            class="3xl:w-48.5 w-35.75"
+            class="2xl:block hidden"
             src="./images/home/Abstract-Design.svg"
+            alt=""
+          />
+
+          <img
+            class="2xl:hidden xl:block hidden"
+            src="./images/home/path-xl-2.svg"
             alt=""
           />
         </div>
       </div>
-      <div class="bg-main header-bottom 3xl:px-40.5 3xl:py-5 px-20 py-4">
+      <div
+        class="bg-main relative header-bottom 2xl:px-40.5 2xl:py-5 xl:px-20 xl:py-4 py-5 px-4"
+      >
         <div class="flex justify-between items-center">
-          <img src="./images/home/Logo.svg" alt="" />
+          <img class="w-36.75" src="./images/home/Logo.svg" alt="" />
           <div class="navigation">
             <ul
-              class="flex items-center 3xl:gap-6.5 gap-5 text-[#FFFFFF] font-semibold 3xl:text-[18px] text-[14px]"
+              class="2xl:flex xl:flex hidden items-center 2xl:gap-6.5 gap-5 text-[#FFFFFF] font-semibold 2xl:text-[18px] text-[14px]"
             >
-              <li><a href="" class="text-primary">Home</a></li>
+              <li><a href="./index.html" class="text-primary">Home</a></li>
               <li><a href="">About</a></li>
-              <li><a href="">Team</a></li>
-              <li><a href="">Process</a></li>
-              <li><a href="">Pricing</a></li>
-              <li><a href="">Blog</a></li>
-              <li class="3xl:ml-10 ml-7.5">
+              <li><a href="./members.html">Team</a></li>
+              <li><a href="./process.html">Process</a></li>
+              <li><a href="./pricing.html">Pricing</a></li>
+              <li><a href="./blogs.html">Blog</a></li>
+              <li class="2xl:ml-10 ml-7.5">
                 <a
-                  class="bg-primary 3xl:px-6 3xl:py-3.5 3xl:rounded-lg px-4 py-3 rounded-lg text-default inline-block"
+                  class="bg-primary 2xl:px-6 2xl:py-3.5 2xl:rounded-lg px-4 py-3 rounded-lg text-default inline-block"
                   href=""
                 >
                   Contact Us
                 </a>
               </li>
             </ul>
+            <a href="" class="2xl:hidden xl:hidden flex">
+              <img src="./images/home/nav.svg" alt="" />
+            </a>
           </div>
         </div>
       </div>
@@ -63,24 +95,36 @@
     <!-- END HEADER -->
     <!-- START NUTRITION COACHING -->
     <div class="nutrition-coaching">
-      <div class="coaching-inner flex 3xl:gap-12.5 gap-10">
+      <div class="coaching-inner xl:flex block 2xl:gap-12.5 gap-10">
         <img
-          class="3xl:w-237.25 w-177.5"
+          class="xl:block hidden 2xl:w-237.25 w-177.5"
           src="./images/home/coaching/main.png"
           alt=""
         />
-        <div class="flex items-center 3xl:pr-40.5 pr-20">
-          <div>
+        <img
+          class="xl:hidden block"
+          src="./images/home/coaching/main-r.png"
+          alt=""
+        />
+        <div
+          class="flex xl:flex-col flex-col-reverse justify-center 2xl:pr-40.5 xl:pr-20 xl:gap-0 gap-7.5 xl:translate-y-0 -translate-y-7"
+        >
+          <div
+            class="xl:block flex flex-col items-center xl:text-start text-center"
+          >
             <p
-              class="py-2.5 border-b-[3px] border-b-primary 3xl:text-[28px] text-[22px] font-semibold inline-block"
+              class="py-2.5 border-b-[3px] border-b-primary 2xl:text-[28px] xl:text-[22px] text-[18px] font-semibold inline-block"
             >
               Transform Your ❤️ Health with
             </p>
-            <h2 class="3xl:text-[58px] text-[48px] font-bold mt-3.5">
-              Personalized Nutrition <br />
-              Coaching
+            <h2
+              class="2xl:text-[58px] xl:text-[48px] text-[38px] font-bold xl:mt-3.5 mt-2.5 xl:px-0 px-3"
+            >
+              Personalized Nutrition Coaching
             </h2>
-            <p class="font-medium 3xl:mb-12.5 mb-10 mt-5">
+            <p
+              class="font-medium 2xl:mb-12.5 xl:mb-10 xl:mt-5 mb-7.5 mt-4 xl:text-[16px] text-[14px]"
+            >
               Welcome to Nutritionist, your partner in achieving optimal health
               through personalized nutrition coaching. Our certified
               nutritionists are here to guide you on your weight loss journey,
@@ -88,77 +132,84 @@
               transformation today and experience the power of personalized
               nutrition coaching.
             </p>
-            <div class="flex 3xl:gap-5 gap-3.5 3xl:text-[18px] text-[14px]">
+            <div class="flex 2xl:gap-5 gap-3.5 2xl:text-[18px] text-[14px]">
               <a
                 href=""
-                class="3xl:px-5 3xl:py-4 px-5 py-3.5 inline-block 3xl:rounded-lg rounded-md bg-primary"
+                class="2xl:px-5 2xl:py-4 xl:px-5 py-3.5 px-4 inline-block 2xl:rounded-lg rounded-md bg-primary"
                 >Get Starter Today</a
               >
               <a
                 href=""
-                class="inline-block px-6 py-4 3xl:rounded-lg rounded-md bg-item border border-[#E5F5BD]"
+                class="inline-block xl:px-6 px-5 py-4 2xl:rounded-lg rounded-md bg-item border border-[#E5F5BD]"
                 >Book a Demo</a
               >
             </div>
-            <div class="flex items-center gap-1.5 3xl:mt-17.5 mt-12.5">
-              <div
-                class="flex 3xl:w-32.5 w-25.5 3xl:px-2.5 3xl:py-2 px-2 py-1.5 border border-primary rounded-[58px]"
-              >
-                <img
-                  class="icon-avatar 3xl:w-12.5 w-10"
-                  src="./images/home/coaching/icon-1.png"
-                  alt=""
-                />
-                <img
-                  class="-translate-x-5 icon-avatar 3xl:w-12.5 w-10"
-                  src="./images/home/coaching/icon-2.png"
-                  alt=""
-                />
-                <img
-                  class="-translate-x-10 icon-avatar 3xl:w-12.5 w-10"
-                  src="./images/home/coaching/icon-3.png"
-                  alt=""
-                />
-              </div>
-              <p class="3xl:text-[20px] text-[18px]">
-                <span class="text-[#468671] font-bold">430+</span> Happy
-                Customers
-              </p>
+          </div>
+          <div
+            class="flex xl:flex-row flex-col items-center xl:gap-1.5 gap-1 2xl:mt-17.5 xl:mt-12.5 mt-0"
+          >
+            <div
+              class="flex 2xl:w-32.5 w-25.5 2xl:px-2.5 2xl:py-2 px-2 py-1.5 border border-primary rounded-[58px] xl:bg-none bg-full"
+            >
+              <img
+                class="icon-avatar 2xl:w-12.5 w-10"
+                src="./images/home/coaching/icon-1.png"
+                alt=""
+              />
+              <img
+                class="-translate-x-5 icon-avatar 2xl:w-12.5 w-10"
+                src="./images/home/coaching/icon-2.png"
+                alt=""
+              />
+              <img
+                class="-translate-x-10 icon-avatar 2xl:w-12.5 w-10"
+                src="./images/home/coaching/icon-3.png"
+                alt=""
+              />
             </div>
+            <p class="2xl:text-[20px] xl:text-[18px] text-[16px]">
+              <span class="text-[#468671] font-bold">430+</span> Happy Customers
+            </p>
           </div>
         </div>
       </div>
     </div>
     <!-- END NUTRITION COACHING -->
     <!-- START FEATURE -->
-    <div class="feature 3xl:mt-45 mt-37.5">
+    <div class="feature 2xl:mt-45 xl:mt-37.5 mt-10">
       <div class="container">
-        <div class="heading text-center 3xl:mb-20 mb-15">
-          <h2 class="3xl:text-[48px] text-[38px] font-bold 3xl:mb-2.5 mb-2">
+        <div class="heading text-center 2xl:mb-20 xl:mb-15 mb-12.5">
+          <h2
+            class="2xl:text-[48px] xl:text-[38px] text-[28px] font-bold 2xl:mb-2.5 mb-2"
+          >
             Features
           </h2>
-          <p class="font-medium text-[18px]">
+          <p class="font-medium xl:text-[18px] text-[14px]">
             Welcome to the Feature Section of Nutritionist, your ultimate
             destination for all things nutrition and wellness.
           </p>
         </div>
-        <div class="feature-items flex flex-wrap 3xl:gap-7.5 gap-5">
+        <div
+          class="feature-items xl:grid grid-cols-2 2xl:gap-7.5 gap-5 flex flex-col"
+        >
           <div
-            class="feature-item rounded-xl 3xl:w-195.75 w-157.5 3xl:px-12.5 px-10 py-10 bg-item border border-[#E5F5BD]"
+            class="feature-item rounded-xl 2xl:px-12.5 xl:p-10 p-7.5 bg-item border border-[#E5F5BD]"
           >
-            <div class="flex items-center 3xl:gap-3.5 gap-2.5 mb-6">
-              <div class="3xl:p-3.5 p-3 bg-primary 3xl:rounded-lg rounded-md">
+            <div class="flex items-center 2xl:gap-3.5 gap-2.5 xl:mb-6 mb-4">
+              <div class="2xl:p-3.5 p-3 bg-primary 2xl:rounded-lg rounded-md">
                 <img
-                  class="3xl:w-10 w-7.5"
+                  class="2xl:w-10 w-7.5"
                   src="./images/home/feature/Icon-1.svg"
                   alt=""
                 />
               </div>
-              <p class="3xl:text-[24px] text-[20px] font-semibold">
+              <p
+                class="2xl:text-[24px] xl:text-[20px] text-[18px] font-semibold"
+              >
                 Personalized Nutrition Plans
               </p>
             </div>
-            <p>
+            <p class="xl:text-[16px] text-[14px]">
               Receive a tailored nutrition plan designed specifically for your
               body and goals. Our certified nutritionists will consider your
               unique needs, dietary preferences, and health conditions to create
@@ -166,21 +217,23 @@
             </p>
           </div>
           <div
-            class="feature-item rounded-xl 3xl:w-195.75 w-157.5 3xl:px-12.5 px-10 py-10 bg-item border border-[#E5F5BD]"
+            class="feature-item rounded-xl 2xl:px-12.5 xl:p-10 p-7.5 bg-item border border-[#E5F5BD]"
           >
-            <div class="flex items-center 3xl:gap-3.5 gap-2.5 mb-6">
-              <div class="3xl:p-3.5 p-3 bg-primary 3xl:rounded-lg rounded-md">
+            <div class="flex items-center 2xl:gap-3.5 gap-2.5 xl:mb-6 mb-4">
+              <div class="2xl:p-3.5 p-3 bg-primary 2xl:rounded-lg rounded-md">
                 <img
-                  class="3xl:w-10 w-7.5"
+                  class="2xl:w-10 w-7.5"
                   src="./images/home/feature/Icon-2.svg"
                   alt=""
                 />
               </div>
-              <p class="3xl:text-[24px] text-[20px] font-semibold">
+              <p
+                class="2xl:text-[24px] xl:text-[20px] text-[18px] font-semibold"
+              >
                 Guidance from Certified Nutritionists
               </p>
             </div>
-            <p>
+            <p class="xl:text-[16px] text-[14px]">
               Our team of experienced and certified nutritionists will provide
               professional guidance and support throughout your journey. They
               will answer your questions, address your concerns, and keep you
@@ -188,21 +241,23 @@
             </p>
           </div>
           <div
-            class="feature-item rounded-xl 3xl:w-195.75 w-157.5 3xl:px-12.5 px-10 py-10 bg-item border border-[#E5F5BD]"
+            class="feature-item rounded-xl 2xl:px-12.5 xl:p-10 p-7.5 bg-item border border-[#E5F5BD]"
           >
-            <div class="flex items-center 3xl:gap-3.5 gap-2.5 mb-6">
-              <div class="3xl:p-3.5 p-3 bg-primary 3xl:rounded-lg rounded-md">
+            <div class="flex items-center 2xl:gap-3.5 gap-2.5 xl:mb-6 mb-4">
+              <div class="2xl:p-3.5 p-3 bg-primary 2xl:rounded-lg rounded-md">
                 <img
-                  class="3xl:w-10 w-7.5"
+                  class="2xl:w-10 w-7.5"
                   src="./images/home/feature/Icon-3.svg"
                   alt=""
                 />
               </div>
-              <p class="3xl:text-[24px] text-[20px] font-semibold">
+              <p
+                class="2xl:text-[24px] xl:text-[20px] text-[18px] font-semibold"
+              >
                 Food Tracking and Analysis
               </p>
             </div>
-            <p>
+            <p class="xl:text-[16px] text-[14px]">
               Effortlessly track your food intake using our user-friendly app.
               Our nutritionists will analyze your data to provide insights into
               your eating habits, help you identify areas for improvement, and
@@ -210,21 +265,23 @@
             </p>
           </div>
           <div
-            class="feature-item rounded-xl 3xl:w-195.75 w-157.5 3xl:px-12.5 px-10 py-10 bg-item border border-[#E5F5BD]"
+            class="feature-item rounded-xl 2xl:px-12.5 xl:p-10 p-7.5 bg-item border border-[#E5F5BD]"
           >
-            <div class="flex items-center 3xl:gap-3.5 gap-2.5 mb-6">
-              <div class="3xl:p-3.5 p-3 bg-primary 3xl:rounded-lg rounded-md">
+            <div class="flex items-center 2xl:gap-3.5 gap-2.5 xl:mb-6 mb-4">
+              <div class="2xl:p-3.5 p-3 bg-primary 2xl:rounded-lg rounded-md">
                 <img
-                  class="3xl:w-10 w-7.5"
+                  class="2xl:w-10 w-7.5"
                   src="./images/home/feature/Icon-4.svg"
                   alt=""
                 />
               </div>
-              <p class="3xl:text-[24px] text-[20px] font-semibold">
+              <p
+                class="2xl:text-[24px] xl:text-[20px] text-[18px] font-semibold"
+              >
                 Meal Planning and Recipes
               </p>
             </div>
-            <p>
+            <p class="xl:text-[16px] text-[14px]">
               Access a vast collection of delicious and healthy recipes tailored
               to your dietary needs. Our nutritionists will also create
               personalized meal plans, making it easier for you to stay on track
@@ -232,21 +289,23 @@
             </p>
           </div>
           <div
-            class="feature-item rounded-xl 3xl:w-195.75 w-157.5 3xl:px-12.5 px-10 py-10 bg-item border border-[#E5F5BD]"
+            class="feature-item rounded-xl 2xl:px-12.5 xl:p-10 p-7.5 bg-item border border-[#E5F5BD]"
           >
-            <div class="flex items-center 3xl:gap-3.5 gap-2.5 mb-6">
-              <div class="3xl:p-3.5 p-3 bg-primary 3xl:rounded-lg rounded-md">
+            <div class="flex items-center 2xl:gap-3.5 gap-2.5 xl:mb-6 mb-4">
+              <div class="2xl:p-3.5 p-3 bg-primary 2xl:rounded-lg rounded-md">
                 <img
-                  class="3xl:w-10 w-7.5"
+                  class="2xl:w-10 w-7.5"
                   src="./images/home/feature/Icon-5.svg"
                   alt=""
                 />
               </div>
-              <p class="3xl:text-[24px] text-[20px] font-semibold">
+              <p
+                class="2xl:text-[24px] xl:text-[20px] text-[18px] font-semibold"
+              >
                 Lifestyle and Behavior Coaching
               </p>
             </div>
-            <p>
+            <p class="xl:text-[16px] text-[14px]">
               Achieving sustainable results requires more than just a diet plan.
               Our nutritionists will work with you to develop healthy habits,
               address emotional eating, and provide strategies to overcome
@@ -254,21 +313,23 @@
             </p>
           </div>
           <div
-            class="feature-item rounded-xl 3xl:w-195.75 w-157.5 3xl:px-12.5 px-10 py-10 bg-item border border-[#E5F5BD]"
+            class="feature-item rounded-xl 2xl:px-12.5 xl:p-10 p-7.5 bg-item border border-[#E5F5BD]"
           >
-            <div class="flex items-center 3xl:gap-3.5 gap-2.5 mb-6">
-              <div class="3xl:p-3.5 p-3 bg-primary 3xl:rounded-lg rounded-md">
+            <div class="flex items-center 2xl:gap-3.5 gap-2.5 xl:mb-6 mb-4">
+              <div class="2xl:p-3.5 p-3 bg-primary 2xl:rounded-lg rounded-md">
                 <img
-                  class="3xl:w-10 w-7.5"
+                  class="2xl:w-10 w-7.5"
                   src="./images/home/feature/Icon-6.svg"
                   alt=""
                 />
               </div>
-              <p class="3xl:text-[24px] text-[20px] font-semibold">
+              <p
+                class="2xl:text-[24px] xl:text-[20px] text-[18px] font-semibold"
+              >
                 Nutritional Education and Workshops
               </p>
             </div>
-            <p>
+            <p class="xl:text-[16px] text-[14px]">
               Expand your knowledge of nutrition through informative articles
               and educational workshops. Our nutritionists will equip you with
               the knowledge and tools to make informed choices for long-term
@@ -280,62 +341,76 @@
     </div>
     <!-- END FEATURE -->
     <!-- START BLOG -->
-    <div class="blog 3xl:mt-45 mt-37.5">
+    <div class="blog 2xl:mt-45 xl:mt-37.5 mt-10">
       <div class="container">
         <div
-          class="heading 3xl:mb-20 mb-15 flex flex-col items-center text-center"
+          class="heading 2xl:mb-20 xl:mb-15 mb-12.5 flex flex-col items-center text-center"
         >
-          <h2 class="3xl:text-[48px] text-[38px] font-bold 3xl:mb-2.5 mb-2">
+          <h2
+            class="2xl:text-[48px] xl:text-[38px] text-[28px] font-bold 2xl:mb-2.5 mb-2"
+          >
             Our Blogs
           </h2>
-          <p class="font-medium text-[18px] w-249">
+          <p
+            class="font-medium xl:text-[18px] text-[14px] 2xl:px-70 xl:px-40 text-[#333333]"
+          >
             Our blog is a treasure trove of informative and engaging articles
             written by our team of nutritionists, dietitians, and wellness
             experts. Here's what you can expect from our blog.
           </p>
         </div>
-        <div class="blog-items flex flex-wrap 3xl:gap-7.5 gap-5">
+        <div
+          class="blog-items xl:grid grid-cols-2 flex flex-col 2xl:gap-7.5 gap-5"
+        >
           <div
-            class="blog-item 3xl:rounded-xl rounded-[10px] 3xl:w-195.75 w-157.5 3xl:p-10 p-7.5 bg-item border border-[#EEF8D3]"
+            class="blog-item 2xl:rounded-xl rounded-[10px] 2xl:p-10 xl:p-7.5 p-6 bg-item border border-[#EEF8D3]"
           >
             <img
-              class="3xl:w-175.75 w-142.5"
+              class="2xl:w-175.75 w-142.5"
               src="./images/home/blogs/blog-1.png"
               alt=""
             />
-            <p class="mt-10">Weight Loss</p>
-            <h3 class="3xl:text-[26px] text-[22px] font-semibold">
+            <p class="xl:mt-10 mt-5 xl:text-[16px] text-[14px]">Weight Loss</p>
+            <h3
+              class="2xl:text-[26px] xl:text-[22px] text-[20px] font-semibold"
+            >
               The Benefits of Hydration for Weight Loss
             </h3>
-            <p class="3xl:my-7.5 my-5">
+            <p class="2xl:my-7.5 xl:my-5 my-4.5 xl:text-[18px] text-[14px]">
               Discover how staying hydrated can support your weight loss goals
               and improve overall health.
             </p>
             <div
-              class="flex 3xl:py-5 py-4 3xl:pr-4 pr-3.5 3xl:pl-5 pl-4 bg-full border border-[#EEF8D3]"
+              class="flex xl:flex-row flex-col xl:gap-0 gap-5 2xl:py-5 py-4 2xl:pr-4 pr-3.5 2xl:pl-5 pl-4 bg-full border border-[#EEF8D3]"
             >
-              <img
-                class="3xl:w-15 w-12.5 rounded-lg"
-                src="./images/home/blogs/user-1.png"
-                alt=""
-              />
-              <div class="3xl:ml-4 ml-3.5">
-                <p class="3xl:text-[20px] text-[18px] font-semibold">
-                  Emily Johnson
-                </p>
-                <p class="text-[#59595A]">23 May 2023 - 5 min read</p>
+              <div class="flex">
+                <img
+                  class="2xl:w-15 xl:w-12.5 w-10 rounded-lg"
+                  src="./images/home/blogs/user-1.png"
+                  alt=""
+                />
+                <div class="2xl:ml-4 xl:ml-3.5 ml-2.5">
+                  <p
+                    class="2xl:text-[20px] xl:text-[18px] text-[16px] font-semibold"
+                  >
+                    Emily Johnson
+                  </p>
+                  <p class="text-[#59595A] xl:text-[16px] text-[14px]">
+                    23 May 2023 - 5 min read
+                  </p>
+                </div>
               </div>
               <div class="ml-auto flex gap-2">
                 <div class="blog-icon">
                   <img
-                    class="3xl:w-6 w-5"
+                    class="2xl:w-6 w-5"
                     src="./images/home/blogs/icon-love.svg"
                     alt=""
                   />
                 </div>
                 <div class="blog-icon">
                   <img
-                    class="3xl:w-6 w-5"
+                    class="2xl:w-6 w-5"
                     src="./images/home/blogs/icon-save.svg"
                     alt=""
                   />
@@ -344,47 +419,57 @@
             </div>
           </div>
           <div
-            class="blog-item 3xl:rounded-xl rounded-[10px] 3xl:w-195.75 w-157.5 3xl:p-10 p-7.5 bg-item border border-[#EEF8D3]"
+            class="blog-item 2xl:rounded-xl rounded-[10px] 2xl:p-10 xl:p-7.5 p-6 bg-item border border-[#EEF8D3]"
           >
             <img
-              class="3xl:w-175.75 w-142.5"
+              class="2xl:w-175.75 w-142.5"
               src="./images/home/blogs/blog-2.png"
               alt=""
             />
-            <p class="mt-10">Mindful Eating</p>
-            <h3 class="3xl:text-[26px] text-[22px] font-semibold">
+            <p class="xl:mt-10 mt-5 xl:text-[16px] text-[14px]">
+              Mindful Eating
+            </p>
+            <h3
+              class="2xl:text-[26px] xl:text-[22px] text-[20px] font-semibold"
+            >
               Cultivating a Healthy Relationship with Food
             </h3>
-            <p class="3xl:my-7.5 my-5">
+            <p class="2xl:my-7.5 xl:my-5 my-4.5 xl:text-[18px] text-[14px]">
               Learn how practicing mindful eating can help you develop a
               healthier relationship with food and improve your overall
               well-being.
             </p>
             <div
-              class="flex 3xl:py-5 py-4 3xl:pr-4 pr-3.5 3xl:pl-5 pl-4 bg-full border border-[#EEF8D3]"
+              class="flex xl:flex-row flex-col xl:gap-0 gap-5 2xl:py-5 py-4 2xl:pr-4 pr-3.5 2xl:pl-5 pl-4 bg-full border border-[#EEF8D3]"
             >
-              <img
-                class="3xl:w-15 w-12.5 rounded-lg"
-                src="./images/home/blogs/user-2.png"
-                alt=""
-              />
-              <div class="3xl:ml-4 ml-3.5">
-                <p class="3xl:text-[20px] text-[18px] font-semibold">
-                  Sarah Thompson
-                </p>
-                <p class="text-[#59595A]">23 May 2023 - 5 min read</p>
+              <div class="flex">
+                <img
+                  class="2xl:w-15 xl:w-12.5 w-10 rounded-lg"
+                  src="./images/home/blogs/user-2.png"
+                  alt=""
+                />
+                <div class="2xl:ml-4 xl:ml-3.5 ml-2.5">
+                  <p
+                    class="2xl:text-[20px] xl:text-[18px] text-[16px] font-semibold"
+                  >
+                    Sarah Thompson
+                  </p>
+                  <p class="text-[#59595A] xl:text-[16px] text-[14px]">
+                    23 May 2023 - 5 min read
+                  </p>
+                </div>
               </div>
               <div class="ml-auto flex gap-2">
                 <div class="blog-icon">
                   <img
-                    class="3xl:w-6 w-5"
+                    class="2xl:w-6 w-5"
                     src="./images/home/blogs/icon-love.svg"
                     alt=""
                   />
                 </div>
                 <div class="blog-icon">
                   <img
-                    class="3xl:w-6 w-5"
+                    class="2xl:w-6 w-5"
                     src="./images/home/blogs/icon-save.svg"
                     alt=""
                   />
@@ -393,46 +478,56 @@
             </div>
           </div>
           <div
-            class="blog-item 3xl:rounded-xl rounded-[10px] 3xl:w-195.75 w-157.5 3xl:p-10 p-7.5 bg-item border border-[#EEF8D3]"
+            class="blog-item 2xl:rounded-xl rounded-[10px] 2xl:p-10 xl:p-7.5 p-6 bg-item border border-[#EEF8D3]"
           >
             <img
-              class="3xl:w-175.75 w-142.5"
+              class="2xl:w-175.75 w-142.5"
               src="./images/home/blogs/blog-3.png"
               alt=""
             />
-            <p class="mt-10">Understanding Macronutrients</p>
-            <h3 class="3xl:text-[26px] text-[22px] font-semibold">
+            <p class="xl:mt-10 mt-5 xl:text-[16px] text-[14px]">
+              Understanding Macronutrients
+            </p>
+            <h3
+              class="2xl:text-[26px] xl:text-[22px] text-[20px] font-semibold"
+            >
               Carbohydrates, Proteins, and Fats
             </h3>
-            <p class="3xl:my-7.5 my-5">
+            <p class="2xl:my-7.5 xl:my-5 my-4.5 xl:text-[18px] text-[14px]">
               Get a comprehensive understanding of macronutrients and their role
               in your diet for optimal health and weight management.
             </p>
             <div
-              class="flex 3xl:py-5 py-4 3xl:pr-4 pr-3.5 3xl:pl-5 pl-4 bg-full border border-[#EEF8D3]"
+              class="flex xl:flex-row flex-col xl:gap-0 gap-5 2xl:py-5 py-4 2xl:pr-4 pr-3.5 2xl:pl-5 pl-4 bg-full border border-[#EEF8D3]"
             >
-              <img
-                class="3xl:w-15 w-12.5 rounded-lg"
-                src="./images/home/blogs/user-3.png"
-                alt=""
-              />
-              <div class="3xl:ml-4 ml-3.5">
-                <p class="3xl:text-[20px] text-[18px] font-semibold">
-                  Mark Wilson
-                </p>
-                <p class="text-[#59595A]">23 May 2023 - 5 min read</p>
+              <div class="flex">
+                <img
+                  class="2xl:w-15 xl:w-12.5 w-10 rounded-lg"
+                  src="./images/home/blogs/user-3.png"
+                  alt=""
+                />
+                <div class="2xl:ml-4 xl:ml-3.5 ml-2.5">
+                  <p
+                    class="2xl:text-[20px] xl:text-[18px] text-[16px] font-semibold"
+                  >
+                    Mark Wilson
+                  </p>
+                  <p class="text-[#59595A] xl:text-[16px] text-[14px]">
+                    23 May 2023 - 5 min read
+                  </p>
+                </div>
               </div>
               <div class="ml-auto flex gap-2">
                 <div class="blog-icon">
                   <img
-                    class="3xl:w-6 w-5"
+                    class="2xl:w-6 w-5"
                     src="./images/home/blogs/icon-love.svg"
                     alt=""
                   />
                 </div>
                 <div class="blog-icon">
                   <img
-                    class="3xl:w-6 w-5"
+                    class="2xl:w-6 w-5"
                     src="./images/home/blogs/icon-save.svg"
                     alt=""
                   />
@@ -441,46 +536,56 @@
             </div>
           </div>
           <div
-            class="blog-item 3xl:rounded-xl rounded-[10px] 3xl:w-195.75 w-157.5 3xl:p-10 p-7.5 bg-item border border-[#EEF8D3]"
+            class="blog-item 2xl:rounded-xl rounded-[10px] 2xl:p-10 xl:p-7.5 p-6 bg-item border border-[#EEF8D3]"
           >
             <img
-              class="3xl:w-175.75 w-142.5"
+              class="2xl:w-175.75 w-142.5"
               src="./images/home/blogs/blog-4.png"
               alt=""
             />
-            <p class="mt-10">Healthy Snacks on the Go</p>
-            <h3 class="3xl:text-[26px] text-[22px] font-semibold">
+            <p class="xl:mt-10 mt-5 xl:text-[16px] text-[14px]">
+              Healthy Snacks on the Go
+            </p>
+            <h3
+              class="2xl:text-[26px] xl:text-[22px] text-[20px] font-semibold"
+            >
               Quick and Nutritious Options
             </h3>
-            <p class="3xl:my-7.5 my-5">
+            <p class="2xl:my-7.5 xl:my-5 my-4.5 xl:text-[18px] text-[14px]">
               Explore a variety of convenient and healthy snack ideas to keep
               you fueled throughout the day.
             </p>
             <div
-              class="flex 3xl:py-5 py-4 3xl:pr-4 pr-3.5 3xl:pl-5 pl-4 bg-full border border-[#EEF8D3]"
+              class="flex xl:flex-row flex-col xl:gap-0 gap-5 2xl:py-5 py-4 2xl:pr-4 pr-3.5 2xl:pl-5 pl-4 bg-full border border-[#EEF8D3]"
             >
-              <img
-                class="3xl:w-15 w-12.5 rounded-lg"
-                src="./images/home/blogs/user-4.png"
-                alt=""
-              />
-              <div class="3xl:ml-4 ml-3.5">
-                <p class="3xl:text-[20px] text-[18px] font-semibold">
-                  Emily Johnson
-                </p>
-                <p class="text-[#59595A]">23 May 2023 - 5 min read</p>
+              <div class="flex">
+                <img
+                  class="2xl:w-15 xl:w-12.5 w-10 rounded-lg"
+                  src="./images/home/blogs/user-4.png"
+                  alt=""
+                />
+                <div class="2xl:ml-4 xl:ml-3.5 ml-2.5">
+                  <p
+                    class="2xl:text-[20px] xl:text-[18px] text-[16px] font-semibold"
+                  >
+                    Emily Johnson
+                  </p>
+                  <p class="text-[#59595A] xl:text-[16px] text-[14px]">
+                    23 May 2023 - 5 min read
+                  </p>
+                </div>
               </div>
               <div class="ml-auto flex gap-2">
                 <div class="blog-icon">
                   <img
-                    class="3xl:w-6 w-5"
+                    class="2xl:w-6 w-5"
                     src="./images/home/blogs/icon-love.svg"
                     alt=""
                   />
                 </div>
                 <div class="blog-icon">
                   <img
-                    class="3xl:w-6 w-5"
+                    class="2xl:w-6 w-5"
                     src="./images/home/blogs/icon-save.svg"
                     alt=""
                   />
@@ -494,83 +599,109 @@
     <!-- END BLOG -->
 
     <!-- START TESTIMONIALS -->
-    <div class="testimonials 3xl:mt-45 mt-37.5">
+    <div class="testimonials 2xl:mt-45 xl:mt-37.5 mt-10">
       <div class="container">
         <div
-          class="heading 3xl:mb-20 mb-15 flex flex-col items-center text-center"
+          class="heading 2xl:mb-20 xl:mb-15 mb-12.5 flex flex-col items-center text-center"
         >
-          <h2 class="3xl:text-[48px] text-[38px] font-bold 3xl:mb-2.5 mb-2">
+          <h2
+            class="2xl:text-[48px] xl:text-[38px] text-[28px] font-bold 2xl:mb-2.5 mb-2"
+          >
             Our Testimonials
           </h2>
-          <p class="font-medium text-[18px]">
+          <p class="font-medium xl:text-[18px] text-[14px]">
             Our satisfied clients share their success stories and experiences on
             their journey to better health and well-being.
           </p>
         </div>
-        <div class="testimonials-items flex gap-5 3xl:mb-12.5 mb-10">
+        <div class="testimonials-items xl:flex gap-5 2xl:mb-12.5 xl:mb-10 mb-5">
           <div
-            class="testimonial-item border border-[#EEF8D3] 3xl:rounded-xl rounded-[10px]"
+            class="testimonial-item border border-[#EEF8D3] 2xl:rounded-xl rounded-[10px]"
           >
-            <div class="3xl:p-10 p-7.5">
-              <img src="./images/home/testimonials/quote.svg" alt="" />
-              <p class="3xl:mt-12.5 mt-10">
+            <div class="2xl:p-10 xl:p-7.5 py-4 px-6">
+              <img
+                class="xl:w-10 w-8.5"
+                src="./images/home/testimonials/quote.svg"
+                alt=""
+              />
+              <p class="2xl:mt-12.5 mt-10 xl:text-[18px] text-[14px]">
                 I can't thank Nutritionist enough for their personalized
                 nutrition coaching. It has completely transformed my approach to
                 food and helped me shed those extra pounds. Highly recommended!
               </p>
             </div>
             <div
-              class="3xl:p-10 py-5 px-7.5 flex items-center 3xl:gap-3 gap-2.5 bg-item"
+              class="2xl:p-10 xl:py-5 xl:px-7.5 py-2.5 px-6 flex items-center 2xl:gap-3 gap-2.5 bg-item"
             >
-              <img src="./images/home/testimonials/testi-1.png" alt="" />
+              <img
+                class="xl:w-15 w-10"
+                src="./images/home/testimonials/testi-1.png"
+                alt=""
+              />
               <p class="text-main font-semibold">Jennifer Anderson</p>
             </div>
           </div>
           <div
-            class="testimonial-item border border-[#EEF8D3] 3xl:rounded-xl rounded-[10px]"
+            class="testimonial-item border border-[#EEF8D3] 2xl:rounded-xl rounded-[10px] xl:block hidden"
           >
-            <div class="3xl:p-10 p-7.5">
-              <img src="./images/home/testimonials/quote.svg" alt="" />
-              <p class="3xl:mt-12.5 mt-10">
+            <div class="2xl:p-10 xl:p-7.5 py-4 px-6">
+              <img
+                class="xl:w-10 w-8.5"
+                src="./images/home/testimonials/quote.svg"
+                alt=""
+              />
+              <p class="2xl:mt-12.5 mt-10 xl:text-[18px] text-[14px]">
                 Nutritionist has been a game-changer for me. The expert guidance
                 and support I received from their team made my weight loss
                 journey so much easier. Thank you!
               </p>
             </div>
             <div
-              class="3xl:p-10 py-5 px-7.5 flex items-center 3xl:gap-3 gap-2.5 bg-item"
+              class="2xl:p-10 xl:py-5 xl:px-7.5 py-2.5 px-6 flex items-center 2xl:gap-3 gap-2.5 bg-item"
             >
-              <img src="./images/home/testimonials/testi-2.png" alt="" />
+              <img
+                class="xl:w-15 w-10"
+                src="./images/home/testimonials/testi-2.png"
+                alt=""
+              />
               <p class="text-main font-semibold">Robert Johnson</p>
             </div>
           </div>
           <div
-            class="testimonial-item border border-[#EEF8D3] 3xl:rounded-xl rounded-[10px]"
+            class="testimonial-item border border-[#EEF8D3] 2xl:rounded-xl rounded-[10px] xl:block hidden"
           >
-            <div class="3xl:p-10 p-7.5">
-              <img src="./images/home/testimonials/quote.svg" alt="" />
-              <p class="3xl:mt-12.5 mt-10">
+            <div class="2xl:p-10 xl:p-7.5 py-4 px-6">
+              <img
+                class="xl:w-10 w-8.5"
+                src="./images/home/testimonials/quote.svg"
+                alt=""
+              />
+              <p class="2xl:mt-12.5 mt-10 xl:text-[18px] text-[14px]">
                 I had struggled with my weight for years until I found
                 Nutritionist. Their personalized approach and tailored nutrition
                 plan made all the difference. I've never felt better!
               </p>
             </div>
             <div
-              class="3xl:p-10 py-5 px-7.5 flex items-center 3xl:gap-3 gap-2.5 bg-item"
+              class="2xl:p-10 xl:py-5 xl:px-7.5 py-2.5 px-6 flex items-center 2xl:gap-3 gap-2.5 bg-item"
             >
-              <img src="./images/home/testimonials/testi-3.png" alt="" />
+              <img
+                class="xl:w-15 w-10"
+                src="./images/home/testimonials/testi-3.png"
+                alt=""
+              />
               <p class="text-main font-semibold">Emily Davis</p>
             </div>
           </div>
         </div>
         <div
-          class="pagination flex items-center 3xl:gap-7.5 gap-5 justify-center"
+          class="pagination flex items-center 2xl:gap-7.5 gap-5 justify-center"
         >
           <div
-            class="3xl:p-3 p-2.5 bg-item border border-[#EEF8D3] 3xl:rounded-lg rounded-md"
+            class="2xl:p-3 p-2.5 bg-item border border-[#EEF8D3] 2xl:rounded-lg rounded-md"
           >
             <img
-              class="3xl:w-8.5 w-7"
+              class="2xl:w-8.5 w-7"
               src="./images/home/testimonials/left-arrow.svg"
               alt=""
             />
@@ -578,27 +709,27 @@
           <div>
             <ul class="flex gap-1">
               <li
-                class="3xl:w-2 3xl:h-2 w-1.75 h-1.75 bg-[#356554] rounded-full"
+                class="2xl:w-2 2xl:h-2 w-1.75 h-1.75 bg-[#356554] rounded-full"
               ></li>
               <li
-                class="3xl:w-2 3xl:h-2 w-1.75 h-1.75 bg-[#E5F5BD] rounded-full"
+                class="2xl:w-2 2xl:h-2 w-1.75 h-1.75 bg-[#E5F5BD] rounded-full"
               ></li>
               <li
-                class="3xl:w-2 3xl:h-2 w-1.75 h-1.75 bg-[#E5F5BD] rounded-full"
+                class="2xl:w-2 2xl:h-2 w-1.75 h-1.75 bg-[#E5F5BD] rounded-full"
               ></li>
               <li
-                class="3xl:w-2 3xl:h-2 w-1.75 h-1.75 bg-[#E5F5BD] rounded-full"
+                class="2xl:w-2 2xl:h-2 w-1.75 h-1.75 bg-[#E5F5BD] rounded-full"
               ></li>
               <li
-                class="3xl:w-2 3xl:h-2 w-1.75 h-1.75 bg-[#E5F5BD] rounded-full"
+                class="2xl:w-2 2xl:h-2 w-1.75 h-1.75 bg-[#E5F5BD] rounded-full"
               ></li>
             </ul>
           </div>
           <div
-            class="inline-block 3xl:p-3 p-2.5 bg-item border border-[#EEF8D3] 3xl:rounded-lg rounded-md"
+            class="inline-block 2xl:p-3 p-2.5 bg-item border border-[#EEF8D3] 2xl:rounded-lg rounded-md"
           >
             <img
-              class="3xl:w-8.5 w-7"
+              class="2xl:w-8.5 w-7"
               src="./images/home/testimonials/right-arrow.svg"
               alt=""
             />
@@ -609,24 +740,26 @@
     <!-- END TESTIMONIALS -->
 
     <!-- START PRICING -->
-    <div class="pricing 3xl:mt-45 mt-37.5">
+    <div class="pricing 2xl:mt-45 xl:mt-37.5 mt-10">
       <div class="container">
         <div
-          class="heading 3xl:mb-20 mb-15 flex flex-col items-center text-center"
+          class="heading 2xl:mb-20 xl:mb-15 mb-12.5 flex flex-col items-center text-center"
         >
-          <h2 class="3xl:text-[48px] text-[38px] font-bold 3xl:mb-2.5 mb-2">
+          <h2
+            class="2xl:text-[48px] xl:text-[38px] text-[28px] font-bold 2xl:mb-2.5 mb-2"
+          >
             Our Pricing
           </h2>
-          <p class="font-medium text-[18px] w-249">
+          <p class="font-medium xl:text-[18px] text-[14px] 2xl:px-70 xl:px-51">
             We outline our flexible and affordable options to support you on
             your journey to optimal health and nutrition. We believe that
             everyone deserves access to personalized nutrition guidance and
             resources
           </p>
         </div>
-        <div class="flex flex-col items-center 3xl:gap-3.5 gap-2.5">
+        <div class="flex flex-col items-center 2xl:gap-3.5 gap-2.5">
           <div
-            class="flex p-2.5 3xl:w-58.25 w-51.75 border border-[#DCF1A7] rounded-lg 3xl:text-[18px] text-[14px]"
+            class="flex p-2.5 2xl:w-58.25 w-51.75 border border-[#DCF1A7] rounded-lg 2xl:text-[18px] text-[14px]"
           >
             <a
               href=""
@@ -637,93 +770,101 @@
           </div>
           <p class="text-[#4C4C4D]">Save 50% on Yearly</p>
         </div>
-        <div class="pricing-items flex 3xl:gap-8.25 gap-5 3xl:mt-12.5 mt-10">
+        <div
+          class="pricing-items flex xl:flex-row flex-col 2xl:gap-8.25 gap-5 2xl:mt-12.5 xl:mt-10 mt-7.5"
+        >
           <div
-            class="pricing-item flex flex-col 3xl:gap-10 gap-7.5 w-lg 3xl:p-12.5 p-10 bg-item border border-[#EEF8D3] rounded-xl"
+            class="pricing-item flex flex-col 2xl:gap-10 xl:gap-7.5 gap-6 2xl:p-12.5 xl:p-10 p-7.5 bg-item border border-[#EEF8D3] rounded-xl"
           >
             <div>
               <h3
-                class="3xl:text-[30px] text-[24px] font-semibold text-default"
+                class="2xl:text-[30px] xl:text-[24px] text-[22px] font-semibold text-default"
               >
                 Basic Plan
               </h3>
-              <p class="text-[#4C4C4D]">Up to 50% off on Yearly Plan</p>
+              <p class="text-[#4C4C4D] xl:text-[16px] text-[14px]">
+                Up to 50% off on Yearly Plan
+              </p>
             </div>
-            <p>
+            <p class="2xl:text-[18px] xl:text-[16px] text-[14px]">
               Get started on your health journey with our Basic Plan. It
               includes personalized nutrition coaching, access to our app, meal
               planning assistance, and email support.
             </p>
             <div>
-              <div class="flex items-center 3xl:gap-1 gap-0.5 3xl:mb-8.25 mb-6">
+              <div class="flex items-center 2xl:gap-1 gap-0.5 2xl:mb-8.25 mb-6">
                 <span
-                  class="3xl:text-[50px] text-[40px] text-[#2C5446] font-bold"
+                  class="2xl:text-[50px] text-[40px] text-[#2C5446] font-bold"
                   >$49</span
                 ><span class="text-[#333333]">/month</span>
               </div>
               <a
                 href=""
-                class="font-semibold 3xl:text-[18px] text-[14px] block 3xl:px-10.25 3xl:py-4.5 py-3.5 px-6 bg-primary text-center 3xl:rounded-lg rounded-md text-default"
+                class="font-semibold 2xl:text-[18px] text-[14px] block 2xl:px-10.25 2xl:py-4.5 py-3.5 px-6 bg-primary text-center 2xl:rounded-lg rounded-md text-default"
                 >Choose Plan</a
               >
             </div>
           </div>
           <div
-            class="pricing-item flex flex-col 3xl:gap-10 gap-7.5 w-lg 3xl:p-12.5 p-10 bg-item border border-[#EEF8D3] rounded-xl"
+            class="pricing-item flex flex-col 2xl:gap-10 xl:gap-7.5 gap-6 2xl:p-12.5 xl:p-10 p-7.5 bg-item border border-[#EEF8D3] rounded-xl"
           >
             <div>
               <h3
-                class="3xl:text-[30px] text-[24px] font-semibold text-default"
+                class="2xl:text-[30px] xl:text-[24px] text-[22px] font-semibold text-default"
               >
                 Premium Plan
               </h3>
-              <p class="text-[#4C4C4D]">Up to 50% off on Yearly Plan</p>
+              <p class="text-[#4C4C4D] xl:text-[16px] text-[14px]">
+                Up to 50% off on Yearly Plan
+              </p>
             </div>
-            <p>
+            <p class="2xl:text-[18px] xl:text-[16px] text-[14px]">
               Upgrade to our Premium Plan for enhanced features. In addition to
               the Basic Plan, you'll receive video consultations, priority
               support, and personalized recipe recommendations.
             </p>
             <div>
-              <div class="flex items-center 3xl:gap-1 gap-0.5 3xl:mb-8.25 mb-6">
+              <div class="flex items-center 2xl:gap-1 gap-0.5 2xl:mb-8.25 mb-6">
                 <span
-                  class="3xl:text-[50px] text-[40px] text-[#2C5446] font-bold"
+                  class="2xl:text-[50px] text-[40px] text-[#2C5446] font-bold"
                   >$79</span
                 ><span class="text-[#333333]">/month</span>
               </div>
               <a
                 href=""
-                class="font-semibold 3xl:text-[18px] text-[14px] block 3xl:px-10.25 3xl:py-4.5 py-3.5 px-6 bg-primary text-center 3xl:rounded-lg rounded-md text-default"
+                class="font-semibold 2xl:text-[18px] text-[14px] block 2xl:px-10.25 2xl:py-4.5 py-3.5 px-6 bg-primary text-center 2xl:rounded-lg rounded-md text-default"
                 >Choose Plan</a
               >
             </div>
           </div>
           <div
-            class="pricing-item flex flex-col 3xl:gap-10 gap-7.5 w-lg 3xl:p-12.5 p-10 bg-item border border-[#EEF8D3] rounded-xl"
+            class="pricing-item flex flex-col 2xl:gap-10 xl:gap-7.5 gap-6 2xl:p-12.5 xl:p-10 p-7.5 bg-item border border-[#EEF8D3] rounded-xl"
           >
             <div>
               <h3
-                class="3xl:text-[30px] text-[24px] font-semibold text-default"
+                class="2xl:text-[30px] xl:text-[24px] text-[22px] font-semibold text-default"
               >
                 Ultimate Plan
               </h3>
-              <p class="text-[#4C4C4D]">Up to 50% off on Yearly Plan</p>
+              <p class="text-[#4C4C4D] xl:text-[16px] text-[14px]">
+                Up to 50% off on Yearly Plan
+              </p>
             </div>
-            <p>
+            <p class="2xl:text-[18px] xl:text-[16px] text-[14px]">
               Experience the full benefits of personalized nutrition coaching
               with our Ultimate Plan. Enjoy all the features of the Premium
               Plan, along with 24/7 chat support and exclusive workshops.
             </p>
             <div>
-              <div class="flex items-center 3xl:gap-1 gap-0.5 3xl:mb-8.25 mb-6">
+              <div class="flex items-center 2xl:gap-1 gap-0.5 2xl:mb-8.25 mb-6">
                 <span
-                  class="3xl:text-[50px] text-[40px] text-[#2C5446] font-bold"
+                  class="2xl:text-[50px] text-[40px] text-[#2C5446] font-bold"
                   >$99</span
                 ><span class="text-[#333333]">/month</span>
               </div>
               <a
                 href=""
-                class="font-semibold 3xl:text-[18px] text-[14px] block 3xl:px-10.25 3xl:py-4.5 py-3.5 px-6 bg-primary text-center 3xl:rounded-lg rounded-md text-default"
+                class="font-semibold 2xl:text-[18px] text-[14px] block 2xl:px-10.25 2xl:py-4.5 py-3.5 px-6 bg-primary text-center 2xl:rounded-lg rounded-md text-default"
                 >Choose Plan</a
               >
             </div>
@@ -734,28 +875,30 @@
     <!-- END PRICING -->
 
     <!-- START FOOTER -->
-    <footer class="mt-37.5 bg-main 3xl:py-12.5 py-10 3xl:px-40.5 px-20">
-      <div class="">
-        <div class="footer-top flex justify-between items-center">
-          <img class="3xl:w-48.5 w-32.25" src="./images/home/Logo.svg" alt="" />
-          <div class="navigation">
+    <footer
+      class="xl:mt-37.5 mt-10 bg-main 2xl:py-12.5 xl:py-10 py-7.5 2xl:px-40.5 xl:px-20 px-4"
+    >
+    
+        <div class="footer-top flex xl:flex-nowrap flex-wrap justify-between items-center">
+          <img class="2xl:w-48.5 w-32.25" src="./images/home/Logo.svg" alt="" />
+          <div class="navigation xl:order-2 order-3 xl:mt-0 mt-5 xl:pr-16.5 pr-16.5">
             <ul
-              class="3xl:text-[18px] text-[14px] flex items-center 3xl:gap-6.5 gap-4 text-[#FFFFFF] font-semibold"
+              class="2xl:text-[18px] text-[14px] flex xl:flex-nowrap flex-wrap items-center 2xl:gap-6.5 gap-4 text-[#FFFFFF] font-semibold "
             >
-              <li><a href="">Home</a></li>
+              <li><a href="./index.html">Home</a></li>
               <li><a href="">About</a></li>
-              <li><a href="">Team</a></li>
-              <li><a href="">Process</a></li>
-              <li><a href="">Pricing</a></li>
-              <li><a href="">Blog</a></li>
+              <li><a href="./members.html">Team</a></li>
+              <li><a href="./process.html">Process</a></li>
+              <li><a href="./pricing.html">Pricing</a></li>
+              <li><a href="./blogs.html">Blog</a></li>
               <li><a href="">Contact</a></li>
             </ul>
           </div>
-          <div class="flex 3xl:gap-5 gap-3.5 items-center =">
+          <div class="flex 2xl:gap-5 xl:gap-3.5 gap-1.5 items-center xl:order-3 order-2">
             <p class="text-white">Got To Top</p>
-            <div class="3xl:p-3.5 p-3 bg-[#234338] rounded-[73px]">
+            <div class="2xl:p-3.5 p-3 bg-[#234338] rounded-[73px]">
               <img
-                class="3xl:w-8.5 w-6"
+                class="2xl:w-8.5 w-6"
                 src="./images/home/arrow-small-up.svg"
                 alt=""
               />
@@ -763,37 +906,38 @@
           </div>
         </div>
         <div
-          class="footer-bottom text-white flex justify-between items-center 3xl:mt-12.5 mt-10 3xl:pr-7.5 3xl:pl-5 3xl:py-4 py-3.5 pr-6.5 pl-4 bg-[#234338] rounded-lg border border-[#2C5446]"
+          class="footer-bottom text-white flex xl:flex-row flex-col justify-between xl:items-center items-stretch 2xl:mt-12.5 xl:mt-10 mt-7.5 2xl:pr-7.5 2xl:pl-5 2xl:py-4 xl:py-3.5 xl:pr-6.5 xl:pl-4 p-5 bg-[#234338] rounded-lg border border-[#2C5446]"
         >
-          <div class="flex 3xl:gap-5 gap-4">
+          <div class="flex xl:flex-row flex-col 2xl:gap-5 gap-4">
             <div
-              class="flex 3xl:gap-1.5 gap-1 3xl:p-3.5 p-3 border border-[#2C5446] rounded-md"
+              class="flex xl:justify-start justify-center 2xl:gap-1.5 gap-1 2xl:p-3.5 p-3 border border-[#2C5446] rounded-md"
             >
-              <img src="./images/home/mail.svg" class="3xl:w-6 w-5" alt="" />
+              <img src="./images/home/mail.svg" class="2xl:w-6 w-5" alt="" />
               <a href="">hello@squareup.com</a>
             </div>
             <div
-              class="flex 3xl:gap-1.5 gap-1 3xl:p-3.5 p-3 border border-[#2C5446] rounded-md"
+              class="flex xl:justify-start justify-center 2xl:gap-1.5 gap-1 2xl:p-3.5 p-3 border border-[#2C5446] rounded-md"
             >
-              <img src="./images/home/phone.svg" class="3xl:w-6 w-5" alt="" />
+              <img src="./images/home/phone.svg" class="2xl:w-6 w-5" alt="" />
               <a href="">+91 91813 23 2309</a>
             </div>
             <div
-              class="flex 3xl:gap-1.5 gap-1 3xl:p-3.5 p-3 border border-[#2C5446] rounded-md"
+              class="flex  xl:justify-start justify-center 2xl:gap-1.5 gap-1 2xl:p-3.5 p-3 border border-[#2C5446] rounded-md"
             >
               <img
                 src="./images/home/position.svg"
-                class="3xl:w-6 w-5"
+                class="2xl:w-6 w-5"
                 alt=""
               />
               <a href="">Somewhere in the World</a>
             </div>
           </div>
-          <p class="3xl:text-[18px] text-[14px] text-[#F2F2F2]">
+          <div class="xl:mt-0 mt-5">
+            <p class="2xl:text-[18px] text-[14px] text-[#F2F2F2] text-center">
             © 2023 Nutritionist. All rights reserved.
           </p>
-        </div>
-      </div>
+          </div>
+
     </footer>
     <!-- END FOOTER -->
   </body>
