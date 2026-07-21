@@ -5,6 +5,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="./favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="./favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="./favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="./favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="./favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="./favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="./favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="./favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="./favicon/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
   </head>
   <body class="bg-full">
     <!-- START HEADER -->
@@ -67,27 +143,53 @@
         <div class="flex justify-between items-center">
           <img class="w-36.75" src="./images/home/Logo.svg" alt="" />
           <div class="navigation">
+            <input
+              type="checkbox"
+              name="open-menu"
+              class="peer hidden"
+              id="open-menu"
+            />
+
             <ul
-              class="2xl:flex xl:flex hidden items-center 2xl:gap-6.5 gap-5 text-[#FFFFFF] font-semibold 2xl:text-[18px] text-[14px]"
+              class="xl:text-start peer-checked:text-center 2xl:flex xl:flex xl:static hidden peer-checked:block absolute top-full left-0 items-center 2xl:gap-6.5 gap-5 xl:text-white xl:bg-transparent xl:w-fit bg-item w-full font-semibold 2xl:text-[18px] text-[14px]"
             >
-              <li><a href="./index.html" class="text-primary">Home</a></li>
-              <li><a href="">About</a></li>
-              <li><a href="./members.html">Team</a></li>
-              <li><a href="./process.html">Process</a></li>
-              <li><a href="./pricing.html">Pricing</a></li>
-              <li><a href="./blogs.html">Blog</a></li>
-              <li class="2xl:ml-10 ml-7.5">
+              <li class="xl:py-0 py-2 border-b border-b-[#3333]">
+                <a href="./index.html" class="text-primary p-2">Home</a>
+              </li>
+              <li class="xl:py-0 py-2 border-b border-b-[#3333]">
+                <a class="p-2 hover:text-primary" href="./about.html">About</a>
+              </li>
+              <li class="xl:py-0 py-2 border-b border-b-[#3333]">
+                <a class="p-2 hover:text-primary" href="./members.html">Team</a>
+              </li>
+              <li class="xl:py-0 py-2 border-b border-b-[#3333]">
+                <a class="p-2 hover:text-primary" href="./process.html"
+                  >Process</a
+                >
+              </li>
+              <li class="xl:py-0 py-2 border-b border-b-[#3333]">
+                <a class="p-2 hover:text-primary" href="./pricing.html"
+                  >Pricing</a
+                >
+              </li>
+              <li class="xl:py-0 py-2">
+                <a class="p-2 hover:text-primary" href="./blogs.html">Blog</a>
+              </li>
+              <li class="2xl:ml-10 ml-7.5 xl:block hidden">
                 <a
-                  class="bg-primary 2xl:px-6 2xl:py-3.5 2xl:rounded-lg px-4 py-3 rounded-lg text-default inline-block"
+                  class="bg-primary hover:bg-item 2xl:px-6 2xl:py-3.5 2xl:rounded-lg px-4 py-3 rounded-lg text-default inline-block"
                   href=""
                 >
                   Contact Us
                 </a>
               </li>
             </ul>
-            <a href="" class="2xl:hidden xl:hidden flex">
-              <img src="./images/home/nav.svg" alt="" />
-            </a>
+
+            <label for="open-menu">
+              <div class="2xl:hidden xl:hidden flex cursor-pointer">
+                <img src="./images/home/nav.svg" alt="" />
+              </div>
+            </label>
           </div>
         </div>
       </div>
@@ -878,66 +980,81 @@
     <footer
       class="xl:mt-37.5 mt-10 bg-main 2xl:py-12.5 xl:py-10 py-7.5 2xl:px-40.5 xl:px-20 px-4"
     >
-    
-        <div class="footer-top flex xl:flex-nowrap flex-wrap justify-between items-center">
-          <img class="2xl:w-48.5 w-32.25" src="./images/home/Logo.svg" alt="" />
-          <div class="navigation xl:order-2 order-3 xl:mt-0 mt-5 xl:pr-16.5 pr-16.5">
-            <ul
-              class="2xl:text-[18px] text-[14px] flex xl:flex-nowrap flex-wrap items-center 2xl:gap-6.5 gap-4 text-[#FFFFFF] font-semibold "
-            >
-              <li><a href="./index.html">Home</a></li>
-              <li><a href="">About</a></li>
-              <li><a href="./members.html">Team</a></li>
-              <li><a href="./process.html">Process</a></li>
-              <li><a href="./pricing.html">Pricing</a></li>
-              <li><a href="./blogs.html">Blog</a></li>
-              <li><a href="">Contact</a></li>
-            </ul>
-          </div>
-          <div class="flex 2xl:gap-5 xl:gap-3.5 gap-1.5 items-center xl:order-3 order-2">
-            <p class="text-white">Got To Top</p>
-            <div class="2xl:p-3.5 p-3 bg-[#234338] rounded-[73px]">
-              <img
-                class="2xl:w-8.5 w-6"
-                src="./images/home/arrow-small-up.svg"
-                alt=""
-              />
-            </div>
-          </div>
+      <div
+        class="footer-top flex xl:flex-nowrap flex-wrap justify-between items-center"
+      >
+        <img class="2xl:w-48.5 w-32.25" src="./images/home/Logo.svg" alt="" />
+        <div
+          class="navigation xl:order-2 order-3 xl:mt-0 mt-5 xl:pr-16.5 pr-16.5"
+        >
+          <ul
+            class="2xl:text-[18px] text-[14px] flex xl:flex-nowrap flex-wrap items-center 2xl:gap-6.5 gap-4 text-[#FFFFFF] font-semibold"
+          >
+            <li>
+              <a class="p-2 hover:text-primary" href="./index.html">Home</a>
+            </li>
+            <li><a class="p-2 hover:text-primary" href="">About</a></li>
+            <li>
+              <a class="p-2 hover:text-primary" href="./members.html">Team</a>
+            </li>
+            <li>
+              <a class="p-2 hover:text-primary" href="./process.html"
+                >Process</a
+              >
+            </li>
+            <li>
+              <a class="p-2 hover:text-primary" href="./pricing.html"
+                >Pricing</a
+              >
+            </li>
+            <li>
+              <a class="p-2 hover:text-primary" href="./blogs.html">Blog</a>
+            </li>
+            <li><a class="p-2 hover:text-primary" href="">Contact</a></li>
+          </ul>
         </div>
         <div
-          class="footer-bottom text-white flex xl:flex-row flex-col justify-between xl:items-center items-stretch 2xl:mt-12.5 xl:mt-10 mt-7.5 2xl:pr-7.5 2xl:pl-5 2xl:py-4 xl:py-3.5 xl:pr-6.5 xl:pl-4 p-5 bg-[#234338] rounded-lg border border-[#2C5446]"
+          class="flex 2xl:gap-5 xl:gap-3.5 gap-1.5 items-center xl:order-3 order-2"
         >
-          <div class="flex xl:flex-row flex-col 2xl:gap-5 gap-4">
-            <div
-              class="flex xl:justify-start justify-center 2xl:gap-1.5 gap-1 2xl:p-3.5 p-3 border border-[#2C5446] rounded-md"
-            >
-              <img src="./images/home/mail.svg" class="2xl:w-6 w-5" alt="" />
-              <a href="">hello@squareup.com</a>
-            </div>
-            <div
-              class="flex xl:justify-start justify-center 2xl:gap-1.5 gap-1 2xl:p-3.5 p-3 border border-[#2C5446] rounded-md"
-            >
-              <img src="./images/home/phone.svg" class="2xl:w-6 w-5" alt="" />
-              <a href="">+91 91813 23 2309</a>
-            </div>
-            <div
-              class="flex  xl:justify-start justify-center 2xl:gap-1.5 gap-1 2xl:p-3.5 p-3 border border-[#2C5446] rounded-md"
-            >
-              <img
-                src="./images/home/position.svg"
-                class="2xl:w-6 w-5"
-                alt=""
-              />
-              <a href="">Somewhere in the World</a>
-            </div>
+          <p class="text-white">Got To Top</p>
+          <div class="2xl:p-3.5 p-3 bg-[#234338] rounded-[73px]">
+            <img
+              class="2xl:w-8.5 w-6"
+              src="./images/home/arrow-small-up.svg"
+              alt=""
+            />
           </div>
-          <div class="xl:mt-0 mt-5">
-            <p class="2xl:text-[18px] text-[14px] text-[#F2F2F2] text-center">
+        </div>
+      </div>
+      <div
+        class="footer-bottom text-white flex xl:flex-row flex-col justify-between xl:items-center items-stretch 2xl:mt-12.5 xl:mt-10 mt-7.5 2xl:pr-7.5 2xl:pl-5 2xl:py-4 xl:py-3.5 xl:pr-6.5 xl:pl-4 p-5 bg-[#234338] rounded-lg border border-[#2C5446]"
+      >
+        <div class="flex xl:flex-row flex-col 2xl:gap-5 gap-4">
+          <div
+            class="flex xl:justify-start justify-center 2xl:gap-1.5 gap-1 2xl:p-3.5 p-3 border border-[#2C5446] rounded-md"
+          >
+            <img src="./images/home/mail.svg" class="2xl:w-6 w-5" alt="" />
+            <a href="">hello@squareup.com</a>
+          </div>
+          <div
+            class="flex xl:justify-start justify-center 2xl:gap-1.5 gap-1 2xl:p-3.5 p-3 border border-[#2C5446] rounded-md"
+          >
+            <img src="./images/home/phone.svg" class="2xl:w-6 w-5" alt="" />
+            <a href="">+91 91813 23 2309</a>
+          </div>
+          <div
+            class="flex xl:justify-start justify-center 2xl:gap-1.5 gap-1 2xl:p-3.5 p-3 border border-[#2C5446] rounded-md"
+          >
+            <img src="./images/home/position.svg" class="2xl:w-6 w-5" alt="" />
+            <a href="">Somewhere in the World</a>
+          </div>
+        </div>
+        <div class="xl:mt-0 mt-5">
+          <p class="2xl:text-[18px] text-[14px] text-[#F2F2F2] text-center">
             © 2023 Nutritionist. All rights reserved.
           </p>
-          </div>
-
+        </div>
+      </div>
     </footer>
     <!-- END FOOTER -->
   </body>
